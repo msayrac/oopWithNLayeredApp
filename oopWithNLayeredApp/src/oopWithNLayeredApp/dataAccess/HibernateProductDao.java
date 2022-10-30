@@ -2,17 +2,13 @@ package oopWithNLayeredApp.dataAccess;
 
 import oopWithNLayeredApp.entities.Product;
 
-public class JdbcProductDao implements ProductDao {
+public class HibernateProductDao implements ProductDao {
 	
 	public void add(Product product) {
-				
-		System.out.println("JDCB ile Veritabanına öeklendi.");
+		
+		System.out.println("Hibernate ile Veritabanına öeklendi.");
 		
 	}
-	
-	
-	
-	
 	
 
 }
